@@ -5,8 +5,8 @@ import Input from "./input";
 function InputSet(props) {
     return(
         <div className='inputSet'>
-            <h1>test</h1>
-            <Input update={props.update} value={props.start} />
+            <h1>{props.name}</h1>
+            <Input update={props.update} value={props.value} />
         </div>
     );
 }
